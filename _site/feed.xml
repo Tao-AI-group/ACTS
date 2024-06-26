@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/ACTS/</id>
   <title>ACTS</title>
-  <subtitle>NIH Grant: R01AG084236</subtitle>
-  <updated>2024-06-26T10:37:31-05:00</updated>
+  <subtitle>Developing Advanced Informatics Approaches for an Alzheimer's Disease Clinical Trial Simulation System</subtitle>
+  <updated>2024-06-26T11:30:46-05:00</updated>
   <author>
     <name>Jingna Feng</name>
     <uri>http://localhost:4000/ACTS/</uri>

@@ -1,0 +1,47 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/ACTS/</id>
+  <title>ACTS</title>
+  <subtitle>NIH Grant: R01AG084236</subtitle>
+  <updated>2024-06-25T17:02:07-05:00</updated>
+  <author>
+    <name>Jingna Feng</name>
+    <uri>http://localhost:4000/ACTS/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/ACTS/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/ACTS/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 Jingna Feng </rights>
+  <icon>/ACTS/assets/img/favicons/favicon.ico</icon>
+  <logo>/ACTS/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>ACTS</title>
+    <link href="http://localhost:4000/ACTS/posts/NER/" rel="alternate" type="text/html" title="ACTS" />
+    <published>2024-06-12T16:06:00-05:00</published>
+  
+    <updated>2024-06-12T16:06:00-05:00</updated>
+  
+    <id>http://localhost:4000/ACTS/posts/NER/</id>
+    <content src="http://localhost:4000/ACTS/posts/NER/" />
+    <author>
+      <name>Jingna Feng</name>
+    </author>
+
+  
+    
+    <category term="ontology" />
+    
+  
+
+  <summary>Name entity recognisition and extraction</summary>
+
+  </entry>
+
+</feed>
+
+

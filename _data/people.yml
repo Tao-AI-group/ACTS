@@ -1,0 +1,30 @@
+- name: Dr. Cui Tao
+  role: MPI
+  university: Mayo Clinics
+  image: /assets/img/headshot/cuitao.jpeg
+  email: tao.cui@mayo.edu
+- name: Dr. Bian Jiang
+  role: MPI
+  university: University of Florida
+  image: /assets/img/headshot/bianjiang.jpeg
+  email: bianjiang@ufl.edu
+- name: Dr. GQ Zhang
+  role: MPI
+  university: University of Texas Health Science Center at Houston
+  image: /assets/img/headshot/GQZhang.jpeg
+  email: Guo-Qiang.Zhang@uth.tmc.edu
+- name: Jingna Feng
+  role: Associate Data Science Analyst
+  university: Mayo Clinics
+  image: /assets/img/headshot/jingnafeng.jpeg
+  email: feng.jingna@mayo.edu
+- name: Xinyue Hu
+  role: Associate Data Science Analyst
+  university: Mayo Clinics
+  image: /assets/img/headshot/wildcard_icon.jpg
+  email: hu.xinyue@mayo.edu
+- name: Yue Yu
+  role: Sr. Bioinformatician
+  university: Mayo Clinics
+  image: /assets/img/headshot/wildcard_icon.jpg
+  email: yu.yue@mayo.edu

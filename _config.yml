@@ -16,11 +16,10 @@ timezone: America/Chicago
 
 title: ACTS # the main title
 
-tagline: ACTS (AD Clinical Trial Simulation) Developing Advanced Informatics Approaches for an Alzheimer's Disease Clinical Trial Simulation System # it will display as the sub-title
+tagline: AD Clinical Trial Simulation (NIH Grant R01AG084236) # it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed
-  NIH Grant: R01AG084236
-
+description: Developing Advanced Informatics Approaches for an Alzheimer's Disease Clinical Trial Simulation System # used by seo meta and the atom feed
+  
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""

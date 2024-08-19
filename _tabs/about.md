@@ -8,3 +8,5 @@ order: 6
 {: .prompt-tip } -->
 
 Dr. Cui Tao's AI group focuses on data standardization and AI models that are applicable in healthcare.
+
+To know more about the group's work, please visit <a href="https://tao-ai-group.github.io/home/" text="_blank">Tao AI</a>

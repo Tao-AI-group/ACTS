@@ -4,7 +4,7 @@
   <id>http://localhost:4000/ACTS/</id>
   <title>ACTS</title>
   <subtitle>Developing Advanced Informatics Approaches for an Alzheimer's Disease Clinical Trial Simulation System</subtitle>
-  <updated>2024-08-19T13:53:43-05:00</updated>
+  <updated>2024-08-19T14:30:58-05:00</updated>
   <author>
     <name>Jingna Feng</name>
     <uri>http://localhost:4000/ACTS/</uri>
@@ -17,6 +17,34 @@
   <icon>/ACTS/assets/img/favicons/favicon.ico</icon>
   <logo>/ACTS/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Clinical trial meta data modeling</title>
+    <link href="http://localhost:4000/ACTS/posts/meta-data-modeling/" rel="alternate" type="text/html" title="Clinical trial meta data modeling" />
+    <published>2024-07-20T16:06:00-05:00</published>
+  
+    <updated>2024-07-20T16:06:00-05:00</updated>
+  
+    <id>http://localhost:4000/ACTS/posts/meta-data-modeling/</id>
+    <content src="http://localhost:4000/ACTS/posts/meta-data-modeling/" />
+    <author>
+      <name>Jingna Feng</name>
+    </author>
+
+  
+    
+    <category term="real world data (RWD)" />
+    
+    <category term="metadata" />
+    
+  
+
+  <summary>Clinical trial meta data modeling
+
+We have conducted a comprehensive exploration of Alzheimer’s Disease (AD) related clinical trials, identifying a total of 3,416 trials. The United States leads with 1,787 trials, followed by France (287) and China (139), reflecting both significant global involvement and regional concentration. We observed that the number of AD-related trials has generally inc...</summary>
+
+  </entry>
 
   
   <entry>

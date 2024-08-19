@@ -1,10 +1,10 @@
 [
   
   {
-    "title": "ACTS",
+    "title": "Extracting clinical name entities",
     "url": "/ACTS/posts/NER/",
     "categories": "ontology",
-    "tags": "CDM, phenotype",
+    "tags": "CDM, phenotype, NER, OHDSI",
     "date": "2024-06-12 16:06:00 -0500",
     
 
@@ -13,8 +13,8 @@
 
 
     
-    "snippet": "Name entity recognisition and extraction",
-    "content": "Name entity recognisition and extraction"
+    "snippet": "We have developed an ontology for Alzheimer’s Disease (AD) common data elements, which were collected from AD-related clinical trial eligibility criteria. This ontology encompasses a range of the m...",
+    "content": "We have developed an ontology for Alzheimer’s Disease (AD) common data elements, which were collected from AD-related clinical trial eligibility criteria. This ontology encompasses a range of the most common data elements including disease, medication, lab test results, procedures, rating criteria, social determinants of health, and fertility. Each element was normalized to the UMLS terminology and the OHDSI Standardized Vocabularies. The social determinants of health and fertility type entities are not yet fully established. Furthermore, we leveraged the hierarchy of Disease Ontology to form the structure of disease-type entities, the class definition from Drug Bank and the OHDSI Standardized Vocabularies to create the structure of medication-type entities, and the grouping method from LOINC to form lab test entities. The remaining structures were referring to the OHDSI Standardized Vocabularies. Moreover, we annotated the phenotyping algorithms and related value sets sourced from NLM Value Set Authority Center, NDC List, UMLS Terminology, Codify by AAPC, and Phenotype KnowledgeBase. This standardized ontology could be served for various downstream tasks, such as helping design new trials.Publication:  Sun Z, Tao C. Named Entity Recognition and Normalization for Alzheimer’s Disease Eligibility Criteria. Proc (IEEE Int Conf Healthc Inform). 2023 Jun;2023:558-564. doi: 10.1109/ichi57859.2023.00100. Epub 2023 Dec 11. PMID: 38283164; PMCID: PMC10815931."
   }
   
 ]

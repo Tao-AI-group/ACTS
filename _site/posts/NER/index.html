@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="ACTS" />
+<meta property="og:title" content="Extracting clinical name entities" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Name entity recognisition and extraction" />
-<meta property="og:description" content="Name entity recognisition and extraction" />
+<meta name="description" content="We have developed an ontology for Alzheimer’s Disease (AD) common data elements, which were collected from AD-related clinical trial eligibility criteria. This ontology encompasses a range of the most common data elements including disease, medication, lab test results, procedures, rating criteria, social determinants of health, and fertility. Each element was normalized to the UMLS terminology and the OHDSI Standardized Vocabularies. The social determinants of health and fertility type entities are not yet fully established. Furthermore, we leveraged the hierarchy of Disease Ontology to form the structure of disease-type entities, the class definition from Drug Bank and the OHDSI Standardized Vocabularies to create the structure of medication-type entities, and the grouping method from LOINC to form lab test entities. The remaining structures were referring to the OHDSI Standardized Vocabularies. Moreover, we annotated the phenotyping algorithms and related value sets sourced from NLM Value Set Authority Center, NDC List, UMLS Terminology, Codify by AAPC, and Phenotype KnowledgeBase. This standardized ontology could be served for various downstream tasks, such as helping design new trials." />
+<meta property="og:description" content="We have developed an ontology for Alzheimer’s Disease (AD) common data elements, which were collected from AD-related clinical trial eligibility criteria. This ontology encompasses a range of the most common data elements including disease, medication, lab test results, procedures, rating criteria, social determinants of health, and fertility. Each element was normalized to the UMLS terminology and the OHDSI Standardized Vocabularies. The social determinants of health and fertility type entities are not yet fully established. Furthermore, we leveraged the hierarchy of Disease Ontology to form the structure of disease-type entities, the class definition from Drug Bank and the OHDSI Standardized Vocabularies to create the structure of medication-type entities, and the grouping method from LOINC to form lab test entities. The remaining structures were referring to the OHDSI Standardized Vocabularies. Moreover, we annotated the phenotyping algorithms and related value sets sourced from NLM Value Set Authority Center, NDC List, UMLS Terminology, Codify by AAPC, and Phenotype KnowledgeBase. This standardized ontology could be served for various downstream tasks, such as helping design new trials." />
 <link rel="canonical" href="http://localhost:4000/ACTS/posts/NER/" />
 <meta property="og:url" content="http://localhost:4000/ACTS/posts/NER/" />
 <meta property="og:site_name" content="ACTS" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-06-12T16:06:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="ACTS" />
+<meta property="twitter:title" content="Extracting clinical name entities" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-06-12T16:06:00-05:00","datePublished":"2024-06-12T16:06:00-05:00","description":"Name entity recognisition and extraction","headline":"ACTS","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ACTS/posts/NER/"},"url":"http://localhost:4000/ACTS/posts/NER/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-19T11:12:37-05:00","datePublished":"2024-06-12T16:06:00-05:00","description":"We have developed an ontology for Alzheimer’s Disease (AD) common data elements, which were collected from AD-related clinical trial eligibility criteria. This ontology encompasses a range of the most common data elements including disease, medication, lab test results, procedures, rating criteria, social determinants of health, and fertility. Each element was normalized to the UMLS terminology and the OHDSI Standardized Vocabularies. The social determinants of health and fertility type entities are not yet fully established. Furthermore, we leveraged the hierarchy of Disease Ontology to form the structure of disease-type entities, the class definition from Drug Bank and the OHDSI Standardized Vocabularies to create the structure of medication-type entities, and the grouping method from LOINC to form lab test entities. The remaining structures were referring to the OHDSI Standardized Vocabularies. Moreover, we annotated the phenotyping algorithms and related value sets sourced from NLM Value Set Authority Center, NDC List, UMLS Terminology, Codify by AAPC, and Phenotype KnowledgeBase. This standardized ontology could be served for various downstream tasks, such as helping design new trials.","headline":"Extracting clinical name entities","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ACTS/posts/NER/"},"url":"http://localhost:4000/ACTS/posts/NER/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>ACTS | ACTS
+  <title>Extracting clinical name entities | ACTS
   </title>
 
   <!--
@@ -274,11 +274,11 @@
         <!-- .nav-item -->
       
         <li class="nav-item">
-          <a href="/ACTS/progress/" class="nav-link">
+          <a href="/ACTS/repo/" class="nav-link">
             <i class="fa-fw fa fa-laptop"></i>
             
 
-            <span>PROGRESS</span>
+            <span>REPO</span>
           </a>
         </li>
         <!-- .nav-item -->
@@ -402,7 +402,7 @@
         
           
             
-              <span>ACTS</span>
+              <span>Extracting clinical name entities</span>
             
 
           
@@ -511,7 +511,7 @@
 
 <article class="px-1">
   <header>
-    <h1 data-toc-skip>ACTS</h1>
+    <h1 data-toc-skip>Extracting clinical name entities</h1>
 
     <div class="post-meta text-muted">
       <!-- published date -->
@@ -539,6 +539,29 @@
       </span>
 
       <!-- lastmod date -->
+      
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1724083957"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Aug 19, 2024
+</time>
+
+        </span>
       
 
       
@@ -578,7 +601,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="5 words"
+  title="204 words"
 >
   <em>1 min</em> read</span>
 
@@ -589,7 +612,12 @@
   </header>
 
   <div class="content">
-    <p>Name entity recognisition and extraction</p>
+    <p>We have developed an ontology for <strong>Alzheimer’s Disease (AD) common data elements</strong>, which were collected from AD-related clinical trial eligibility criteria. This ontology encompasses a range of the most common data elements including disease, medication, lab test results, procedures, rating criteria, social determinants of health, and fertility. Each element was normalized to the UMLS terminology and the OHDSI Standardized Vocabularies. The social determinants of health and fertility type entities are not yet fully established. Furthermore, we leveraged the hierarchy of Disease Ontology to form the structure of disease-type entities, the class definition from Drug Bank and the OHDSI Standardized Vocabularies to create the structure of medication-type entities, and the grouping method from LOINC to form lab test entities. The remaining structures were referring to the OHDSI Standardized Vocabularies. Moreover, we annotated the phenotyping algorithms and related value sets sourced from NLM Value Set Authority Center, NDC List, UMLS Terminology, Codify by AAPC, and Phenotype KnowledgeBase. This standardized ontology could be served for various downstream tasks, such as helping design new trials.</p>
+
+<p>Publication:</p>
+<ul>
+  <li>Sun Z, Tao C. Named Entity Recognition and Normalization for Alzheimer’s Disease Eligibility Criteria. Proc (IEEE Int Conf Healthc Inform). 2023 Jun;2023:558-564. doi: 10.1109/ichi57859.2023.00100. Epub 2023 Dec 11. PMID: 38283164; PMCID: PMC10815931.</li>
+</ul>
 
 
   </div>
@@ -618,6 +646,16 @@
             href="/ACTS/tags/phenotype/"
             class="post-tag no-text-decoration"
           >phenotype</a>
+        
+          <a
+            href="/ACTS/tags/ner/"
+            class="post-tag no-text-decoration"
+          >NER</a>
+        
+          <a
+            href="/ACTS/tags/ohdsi/"
+            class="post-tag no-text-decoration"
+          >OHDSI</a>
         
       </div>
     
@@ -653,7 +691,7 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=ACTS%20-%20ACTS&url=http%3A%2F%2Flocalhost%3A4000%2FACTS%2Fposts%2FNER%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Extracting%20clinical%20name%20entities%20-%20ACTS&url=http%3A%2F%2Flocalhost%3A4000%2FACTS%2Fposts%2FNER%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
@@ -714,7 +752,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/ACTS/posts/NER/">ACTS</a>
+          <a href="/ACTS/posts/NER/">Extracting clinical name entities</a>
         </li>
       
     </ul>
@@ -763,6 +801,59 @@
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -771,6 +862,12 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cdm/">CDM</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ner/">NER</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ohdsi/">OHDSI</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/phenotype/">phenotype</a>
@@ -949,6 +1046,59 @@
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -957,6 +1107,12 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cdm/">CDM</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ner/">NER</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ohdsi/">OHDSI</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/phenotype/">phenotype</a>

@@ -8,7 +8,7 @@ tags: journals
 
 ## Selected articles and preprint
 
-*Last updated:  August 19,2024*
+*Last updated:  November 20,2024*
 
 1.	Peng C, Yang X, Chen A, Yu Z, Smith KE, Costa AB, Flores MG, Bian J, Wu Y. Generative large language models are all-purpose text analytics engines: text-to-text learning is all your need. J Am Med Inform Assoc. 2024 Apr 17:ocae078. doi: 10.1093/jamia/ocae078. Epub ahead of print. PMID: 38630580.
  
@@ -34,3 +34,4 @@ tags: journals
 
 11. 	Keloth VK, Selek S, Chen Q, Gilman C, Fu S, Dang Y, Chen X, Hu X, Zhou Y, He H, Fan JW, Wang K, Brandt C, Tao C, Liu H, Xu H. Large Language Models for Social Determinants of Health Information Extraction from Clinical Notes - A Generalizable Approach across Institutions. medRxiv [Preprint]. 2024 May 22:2024.05.21.24307726. doi: 10.1101/2024.05.21.24307726. PMID: 38826441; PMCID: PMC11142292.
 
+12.    Xubing Hao, Xiaojin Li, Yan Huang, Jay Shi, Rashmie Abeysinghe, Cui Tao, Kirk Roberts, Guo-Qiang Zhang, Licong Cui, Quantitatively assessing the impact of the quality of SNOMED CT subtype hierarchy on cohort queries, Journal of the American Medical Informatics Association, 2024;, ocae272, https://doi.org/10.1093/jamia/ocae272

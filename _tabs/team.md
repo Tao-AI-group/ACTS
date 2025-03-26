@@ -7,6 +7,8 @@ date: 2024-04-05 13:13 -0500
 tags: team scientists
 ---
 
+**Last updated: December 2024**
+
 <img src="assets/img/headshot/Tao_ACTS_chart.png" alt="Org Chart" width="800">
 
 | Institution | Contact PI | Role | Name  | Additional Information | Email | Portrait  |

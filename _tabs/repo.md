@@ -1,7 +1,7 @@
 ---
 icon: fa fa-laptop
 order: 2
-title: REPO
+title: Project Repositories and Resources
 tags: news
 collections: [project]
 ---

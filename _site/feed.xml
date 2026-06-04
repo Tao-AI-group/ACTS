@@ -1,72 +1,160 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/ACTS/</id>
+  <id>/ACTS/</id>
   <title>ACTS</title>
   <subtitle>Developing Advanced Informatics Approaches for an Alzheimer's Disease Clinical Trial Simulation System</subtitle>
-  <updated>2024-08-19T14:30:58-05:00</updated>
+  <updated>2026-06-04T10:42:53-05:00</updated>
   <author>
     <name>Jingna Feng</name>
-    <uri>http://localhost:4000/ACTS/</uri>
+    <uri>/ACTS/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/ACTS/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="/ACTS/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/ACTS/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 Jingna Feng </rights>
+    href="/ACTS/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Jingna Feng </rights>
   <icon>/ACTS/assets/img/favicons/favicon.ico</icon>
   <logo>/ACTS/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>Clinical trial meta data modeling</title>
-    <link href="http://localhost:4000/ACTS/posts/meta-data-modeling/" rel="alternate" type="text/html" title="Clinical trial meta data modeling" />
-    <published>2024-07-20T16:06:00-05:00</published>
+    <title>AI-Powered Model for Accurate Prediction of MCI-to-AD Progression</title>
+    <link href="/ACTS/posts/AI-powered/" rel="alternate" type="text/html" title="AI-Powered Model for Accurate Prediction of MCI-to-AD Progression" />
+    <published>2025-03-16T14:51:00-05:00</published>
   
-    <updated>2024-07-20T16:06:00-05:00</updated>
+    <updated>2025-03-16T15:43:21-05:00</updated>
   
-    <id>http://localhost:4000/ACTS/posts/meta-data-modeling/</id>
-    <content src="http://localhost:4000/ACTS/posts/meta-data-modeling/" />
+    <id>/ACTS/posts/AI-powered/</id>
+    <content type="text/html" src="/ACTS/posts/AI-powered/" />
     <author>
       <name>Jingna Feng</name>
     </author>
 
   
     
-    <category term="real world data (RWD)" />
+    <category term="machine learning" />
     
-    <category term="metadata" />
+    <category term="neurology" />
+    
+    <category term="healthcare AI" />
     
   
 
-  <summary>Clinical trial meta data modeling
-
-We have conducted a comprehensive exploration of Alzheimer’s Disease (AD) related clinical trials, identifying a total of 3,416 trials. The United States leads with 1,787 trials, followed by France (287) and China (139), reflecting both significant global involvement and regional concentration. We observed that the number of AD-related trials has generally inc...</summary>
+  <summary>AI-Powered Model for Accurate Prediction of MCI-to-AD Progression  We introduce an AI-powered predictive model for identifying individuals with mild cognitive impairment (MCI) who are at risk of progressing to Alzheimer’s disease (AD). Given the growing burden of AD and the need for early intervention, our deep learning framework leverages longitudinal electronic health records (EHRs) and claim...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Extracting clinical name entities</title>
-    <link href="http://localhost:4000/ACTS/posts/NER/" rel="alternate" type="text/html" title="Extracting clinical name entities" />
-    <published>2024-06-12T16:06:00-05:00</published>
+    <title>Quantifying the Impact of SNOMED CT Hierarchy Quality on Cohort Queries</title>
+    <link href="/ACTS/posts/SNOMED-CT/" rel="alternate" type="text/html" title="Quantifying the Impact of SNOMED CT Hierarchy Quality on Cohort Queries" />
+    <published>2025-02-05T08:38:00-06:00</published>
   
-    <updated>2024-08-19T11:54:08-05:00</updated>
+    <updated>2025-02-05T08:38:00-06:00</updated>
   
-    <id>http://localhost:4000/ACTS/posts/NER/</id>
-    <content src="http://localhost:4000/ACTS/posts/NER/" />
+    <id>/ACTS/posts/SNOMED-CT/</id>
+    <content type="text/html" src="/ACTS/posts/SNOMED-CT/" />
     <author>
       <name>Jingna Feng</name>
     </author>
 
   
     
-    <category term="ontology" />
+    <category term="biomedical informatics" />
+    
+    <category term="electronic health records" />
+    
+    <category term="terminology quality" />
     
   
 
-  <summary>We have developed an ontology for Alzheimer’s Disease (AD) common data elements, which were collected from AD-related clinical trial eligibility criteria. This ontology encompasses a range of the most common data elements including disease, medication, lab test results, procedures, rating criteria, social determinants of health, and fertility. Each element was normalized to the UMLS terminology...</summary>
+  <summary>Quantifying the Impact of SNOMED CT Hierarchy Quality on Cohort Queries  We present a quantitative assessment of how the quality of SNOMED CT’s subtype hierarchy impacts cohort queries in Electronic Health Records (EHRs). SNOMED CT serves as a standardized terminology for structuring clinical concepts, but missing and inaccurate is-a relations can significantly reduce recall and precision in pa...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Association Between Angiotensin II Receptor Blockers and Alzheimer’s Disease Risk in Hypertensive Patients</title>
+    <link href="/ACTS/posts/angiotensin/" rel="alternate" type="text/html" title="Association Between Angiotensin II Receptor Blockers and Alzheimer’s Disease Risk in Hypertensive Patients" />
+    <published>2025-01-21T09:14:00-06:00</published>
+  
+    <updated>2025-01-21T09:14:00-06:00</updated>
+  
+    <id>/ACTS/posts/angiotensin/</id>
+    <content type="text/html" src="/ACTS/posts/angiotensin/" />
+    <author>
+      <name>Jingna Feng</name>
+    </author>
+
+  
+    
+    <category term="epidemiology" />
+    
+    <category term="neurology" />
+    
+    <category term="cardiovascular health" />
+    
+  
+
+  <summary>Association Between Angiotensin II Receptor Blockers and Alzheimer’s Disease Risk in Hypertensive Patients  We investigate the potential protective effects of angiotensin II receptor blockers (ARBs) against Alzheimer’s disease and related dementias (ADRD) in individuals with hypertension. Given the growing global burden of dementia and the lack of curative treatments, identifying cost-effective...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Generative Large Language Models Are All-purpose Text Analytics Engines: Text-to-text Learning Is All You Need</title>
+    <link href="/ACTS/posts/all-you-need/" rel="alternate" type="text/html" title="Generative Large Language Models Are All-purpose Text Analytics Engines: Text-to-text Learning Is All You Need" />
+    <published>2025-01-03T13:57:00-06:00</published>
+  
+    <updated>2025-01-03T13:57:00-06:00</updated>
+  
+    <id>/ACTS/posts/all-you-need/</id>
+    <content type="text/html" src="/ACTS/posts/all-you-need/" />
+    <author>
+      <name>Jingna Feng</name>
+    </author>
+
+  
+    
+    <category term="machine learning" />
+    
+    <category term="natural language processing" />
+    
+    <category term="clinical NLP" />
+    
+  
+
+  <summary>Generative Large Language Models Are All-purpose Text Analytics Engines: Text-to-text Learning Is All You Need  We explore how generative large language models (LLMs) can serve as universal text analytics engines for clinical natural language processing (NLP). By formulating diverse NLP tasks as text-to-text problems, our approach eliminates the need for task-specific models, achieving state-of...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Model Tuning or Prompt Tuning? A Study of Large Language Models for Clinical Concept and Relation Extraction</title>
+    <link href="/ACTS/posts/tuning-prompt-tuning/" rel="alternate" type="text/html" title="Model Tuning or Prompt Tuning? A Study of Large Language Models for Clinical Concept and Relation Extraction" />
+    <published>2024-12-28T11:18:00-06:00</published>
+  
+    <updated>2024-12-28T11:18:00-06:00</updated>
+  
+    <id>/ACTS/posts/tuning-prompt-tuning/</id>
+    <content type="text/html" src="/ACTS/posts/tuning-prompt-tuning/" />
+    <author>
+      <name>Jingna Feng</name>
+    </author>
+
+  
+    
+    <category term="machine learning" />
+    
+    <category term="natural language processing" />
+    
+    <category term="healthcare AI" />
+    
+  
+
+  <summary>Model Tuning or Prompt Tuning? A Study of Large Language Models for Clinical Concept and Relation Extraction  We investigate the effectiveness of soft prompt tuning versus model tuning for clinical concept and relation extraction using large language models (LLMs). With the increasing adoption of transformer-based NLP models in healthcare, optimizing training strategies is crucial for scalabili...</summary>
 
   </entry>
 

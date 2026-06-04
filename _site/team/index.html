@@ -19,7 +19,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta
     name="viewport"
@@ -28,26 +28,26 @@
 
   
 
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.3.3" />
+  <!-- Begin Jekyll SEO tag v2.9.0 -->
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Team" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Developing Advanced Informatics Approaches for an Alzheimer’s Disease Clinical Trial Simulation System" />
-<meta property="og:description" content="Developing Advanced Informatics Approaches for an Alzheimer’s Disease Clinical Trial Simulation System" />
-<link rel="canonical" href="http://localhost:4000/ACTS/team/" />
-<meta property="og:url" content="http://localhost:4000/ACTS/team/" />
+<meta name="description" content="Last updated: December 2024" />
+<meta name="twitter:description" property="og:description" content="Last updated: December 2024" />
+<link rel="canonical" href="/ACTS/team/" />
+<meta property="og:url" content="/ACTS/team/" />
 <meta property="og:site_name" content="ACTS" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-04-05T13:13:00-05:00" />
+<meta property="article:modified_time" content="2024-04-05T13:13:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Team" />
+<meta name="twitter:title" content="Team" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-04-05T13:13:00-05:00","datePublished":"2024-04-05T13:13:00-05:00","description":"Developing Advanced Informatics Approaches for an Alzheimer’s Disease Clinical Trial Simulation System","headline":"Team","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ACTS/team/"},"url":"http://localhost:4000/ACTS/team/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-04-05T13:13:00-05:00","datePublished":"2024-04-05T13:13:00-05:00","description":"Last updated: December 2024","headline":"Team","mainEntityOfPage":{"@type":"WebPage","@id":"/ACTS/team/"},"url":"/ACTS/team/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Team | ACTS
-  </title>
+  <title> | ACTS</title>
 
   <!--
   The Favicons for Web, Android, Microsoft, and iOS (iPhone and iPad) Apps
@@ -56,18 +56,13 @@
 
 
 
+<link rel="icon" type="image/png" href="/ACTS/assets/img/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="/ACTS/assets/img/favicons/favicon.svg">
+<link rel="shortcut icon" href="/ACTS/assets/img/favicons/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/ACTS/assets/img/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/ACTS/assets/img/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/ACTS/assets/img/favicons/favicon-16x16.png">
 
   <link rel="manifest" href="/ACTS/assets/img/favicons/site.webmanifest">
 
-<link rel="shortcut icon" href="/ACTS/assets/img/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="ACTS">
-<meta name="application-name" content="ACTS">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="/ACTS/assets/img/favicons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
 
 
   <!-- Resource Hints -->
@@ -95,7 +90,7 @@
 
   <!-- Bootstrap -->
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   
 
   <!-- Theme style -->
@@ -105,7 +100,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css">
 
   <!-- 3rd-party Dependencies -->
 
@@ -120,114 +115,85 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
-  <!-- JavaScript -->
+  <!-- Scripts -->
+
+  <script src="/ACTS/assets/js/dist/theme.min.js"></script>
+
+  <!-- JS selector for site. -->
+
+<!-- commons -->
+
+
+
+<!-- layout specified -->
+
 
   
-    <!-- Switch the mode between dark and light. -->
 
-<script type="text/javascript">
-  class ModeToggle {
-    static get MODE_KEY() {
-      return 'mode';
-    }
-    static get MODE_ATTR() {
-      return 'data-mode';
-    }
-    static get DARK_MODE() {
-      return 'dark';
-    }
-    static get LIGHT_MODE() {
-      return 'light';
-    }
-    static get ID() {
-      return 'mode-toggle';
-    }
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
-    constructor() {
-      let self = this;this.sysDarkPrefers.addEventListener('change', () => {
-        if (self.hasMode) {
-          self.clearMode();
-        }
-        self.notify();
-      });
 
-      if (!this.hasMode) {
-        return;
-      }
 
-      if (this.isDarkMode) {
-        this.setDark();
-      } else {
-        this.setLight();
-      }
-    }
 
-    get sysDarkPrefers() {
-      return window.matchMedia('(prefers-color-scheme: dark)');
-    }
 
-    get isPreferDark() {
-      return this.sysDarkPrefers.matches;
-    }
 
-    get isDarkMode() {
-      return this.mode === ModeToggle.DARK_MODE;
-    }
 
-    get hasMode() {
-      return this.mode != null;
-    }
 
-    get mode() {
-      return sessionStorage.getItem(ModeToggle.MODE_KEY);
-    }get modeStatus() {
-      if (this.hasMode) {
-        return this.mode;
-      } else {
-        return this.isPreferDark ? ModeToggle.DARK_MODE : ModeToggle.LIGHT_MODE;
-      }
-    }
 
-    setDark() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
 
-    setLight() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-    }
 
-    clearMode() {
-      document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
-      sessionStorage.removeItem(ModeToggle.MODE_KEY);
-    }notify() {
-      window.postMessage(
-        {
-          direction: ModeToggle.ID,
-          message: this.modeStatus
-        },
-        '*'
-      );
-    }
 
-    flipMode() {
-      if (this.hasMode) {
-        this.clearMode();
-      } else {
-        if (this.isPreferDark) {
-          this.setLight();
-        } else {
-          this.setDark();
-        }
-      }
 
-      this.notify();
-    }
-  }
 
-  const modeToggle = new ModeToggle();
-</script>
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
+
+
+
+
+
+
+<script defer src="/ACTS/assets/js/dist/page.min.js"></script>
+
+
+
+<!-- Pageviews -->
+
+
 
   
 
@@ -243,9 +209,7 @@
   <header class="profile-wrapper">
     <a href="/ACTS/" id="avatar" class="rounded-circle"><img src="https://tao-ai-group.github.io/ACTS/assets/img/commons/avatar.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
-    <h1 class="site-title">
-      <a href="/ACTS/">ACTS</a>
-    </h1>
+    <a class="site-title d-block" href="/ACTS/">ACTS</a>
     <p class="site-subtitle fst-italic mb-0">AD Clinical Trial Simulation (NIH Grant R01AG084236)</p>
   </header>
   <!-- .profile-wrapper -->
@@ -346,7 +310,6 @@
     
 
     
-      
 
       
         <a
@@ -379,7 +342,7 @@
       <div class="container d-flex flex-column px-xxl-5">
         <!-- The Top Bar -->
 
-<header id="topbar-wrapper" aria-label="Top Bar">
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="Top Bar">
   <div
     id="topbar"
     class="d-flex align-items-center justify-content-between px-lg-3 h-100"
@@ -407,7 +370,7 @@
     </nav>
     <!-- endof #breadcrumb -->
 
-    <button type="button" id="sidebar-trigger" class="btn btn-link">
+    <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="Sidebar">
       <i class="fas fa-bars fa-fw"></i>
     </button>
 
@@ -415,7 +378,7 @@
       Team
     </div>
 
-    <button type="button" id="search-trigger" class="btn btn-link">
+    <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
       <i class="fas fa-search fa-fw"></i>
     </button>
 
@@ -517,75 +480,6 @@
     
 
     
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
 
     
     
@@ -656,6 +550,8 @@
     
 
     <!-- take out classes -->
+    
+
     
 
     
@@ -730,75 +626,6 @@
     
 
     
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
 
     
     
@@ -869,6 +696,8 @@
     
 
     <!-- take out classes -->
+    
+
     
 
     
@@ -943,75 +772,6 @@
     
 
     
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
 
     
     
@@ -1082,6 +842,8 @@
     
 
     <!-- take out classes -->
+    
+
     
 
     
@@ -1156,75 +918,6 @@
     
 
     
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
 
     
     
@@ -1295,6 +988,8 @@
     
 
     <!-- take out classes -->
+    
+
     
 
     
@@ -1369,75 +1064,6 @@
     
 
     
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
 
     
     
@@ -1508,6 +1134,8 @@
     
 
     <!-- take out classes -->
+    
+
     
 
     
@@ -1582,75 +1210,6 @@
     
 
     
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
 
     
     
@@ -1721,6 +1280,8 @@
     
 
     <!-- take out classes -->
+    
+
     
 
     
@@ -1795,6 +1356,8 @@
     
 
     
+
+    
     
 
     
@@ -1863,6 +1426,446 @@
     
 
     <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
     
 
     
@@ -1943,7 +1946,9 @@
       Team
     </h1>
     <div class="content">
-      <p><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/Tao_ACTS_chart.png" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/Tao_ACTS_chart.png" alt="Org Chart" width="800" loading="lazy"></a></p>
+      <p><strong>Last updated: December 2024</strong></p>
+
+<p><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/Tao_ACTS_chart.png" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/Tao_ACTS_chart.png" alt="Org Chart" width="800" loading="lazy"></a></p>
 
 <div class="table-wrapper"><table>
   <thead>
@@ -1965,7 +1970,7 @@
       <td>GQ Zhang</td>
       <td>Site PI for AIM 3</td>
       <td>guo-qiang.zhang@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of GQ Zhang" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of GQ Zhang" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Texas <br /> Health Science Centre at Houston</td>
@@ -1974,7 +1979,7 @@
       <td>Shiqiang Tao</td>
       <td> </td>
       <td>shiqiang.tao@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Shiqiang Tao" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Shiqiang Tao" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Texas <br /> Health Science Centre at Houston</td>
@@ -1983,7 +1988,7 @@
       <td>Xiaojin Li</td>
       <td> </td>
       <td>xiaojin.li@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xiaojin Li" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xiaojin Li" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Texas <br /> Health Science Centre at Houston</td>
@@ -1992,7 +1997,7 @@
       <td>Yan Huang</td>
       <td> </td>
       <td>yan.huang@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yan Huang" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yan Huang" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Texas <br /> Health Science Centre at Houston</td>
@@ -2001,7 +2006,7 @@
       <td>Rashmie Abeysinghe</td>
       <td>Ontology and Metadata related tasks for Aim 3</td>
       <td>rashmie.abeysinghe@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Rashmie Abeysinghe" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Rashmie Abeysinghe" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Texas <br /> Health Science Centre at Houston</td>
@@ -2010,7 +2015,7 @@
       <td>Licong Cui</td>
       <td> </td>
       <td>licong.cui@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Licong Cui" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Licong Cui" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Florida</td>
@@ -2019,7 +2024,7 @@
       <td>Jiang Bian</td>
       <td>Site PI for AIM 2</td>
       <td>bianjiang@ufl.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Jiang Bian" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Jiang Bian" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Florida</td>
@@ -2028,7 +2033,7 @@
       <td>Xing He</td>
       <td>Lead the development of the tech stack for Aim 2</td>
       <td>hexing@ufl.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xing He" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xing He" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Florida</td>
@@ -2037,7 +2042,7 @@
       <td>Xiaohan Li</td>
       <td>Development</td>
       <td>li.xiaohan@ufl.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xiaohan Li" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xiaohan Li" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Florida</td>
@@ -2046,7 +2051,7 @@
       <td>Yu Hu</td>
       <td>Development</td>
       <td>yu.hu@ufl.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yu Hu" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yu Hu" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Florida</td>
@@ -2055,7 +2060,7 @@
       <td>Luisa Murphy</td>
       <td>Project management</td>
       <td>luisafajardo@ufl.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Luisa Murphy" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Luisa Murphy" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>Mayo Clinic</td>
@@ -2064,7 +2069,7 @@
       <td>Cui Tao</td>
       <td>PI, AIM 1 and Overall</td>
       <td>tao.cui@mayo.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/cuitao.jpeg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/cuitao.jpeg" alt="Portrait of Cui Tao" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/cuitao.jpeg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/cuitao.jpeg" alt="Portrait of Cui Tao" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>Mayo Clinic</td>
@@ -2073,7 +2078,7 @@
       <td>Dr. Fang Li</td>
       <td> </td>
       <td>li.fang@mayo.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/fangli.jpeg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/fangli.jpeg" alt="Dr Fang Li" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/fangli.jpeg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/fangli.jpeg" alt="Dr Fang Li" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>Mayo Clinic</td>
@@ -2082,7 +2087,7 @@
       <td>Jingna Feng</td>
       <td>Project management, ACTs website</td>
       <td>feng.jingna@mayo.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/jingnafeng.jpeg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/jingnafeng.jpeg" alt="Portrait of Jingna Feng" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/jingnafeng.jpeg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/jingnafeng.jpeg" alt="Portrait of Jingna Feng" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>Mayo Clinic</td>
@@ -2091,7 +2096,7 @@
       <td>Xinyue Hu</td>
       <td>AD clinical trial info extraction</td>
       <td>hu.xinyue@mayo.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xinyue Hu" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Xinyue Hu" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>Mayo Clinic</td>
@@ -2100,7 +2105,7 @@
       <td>Yue Yu</td>
       <td>Temporal ontology</td>
       <td>yu.yue1@mayo.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yue Yu" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yue Yu" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>Mayo Clinic</td>
@@ -2109,7 +2114,7 @@
       <td>Stephen Wu</td>
       <td>Temporal ontology</td>
       <td>wu.stephen@mayo.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Stephen Wu" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Stephen Wu" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Texas <br /> Health Science Centre at Houston</td>
@@ -2118,7 +2123,7 @@
       <td>Zenan Sun</td>
       <td>NER pipeline, ontology</td>
       <td>zenan.sun@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Zenan Sun" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Zenan Sun" height="100" loading="lazy"></a></td>
     </tr>
     <tr>
       <td>University of Texas <br /> Health Science Centre at Houston</td>
@@ -2127,7 +2132,7 @@
       <td>Yifang Dang</td>
       <td>ontology</td>
       <td>yifang.dang.1@uth.tmc.edu</td>
-      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link  shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yifang Dang" height="100" loading="lazy"></a></td>
+      <td><a href="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" class="popup img-link shimmer"><img src="https://tao-ai-group.github.io/ACTS/assets/img/headshot/wildcard_icon.jpg" alt="Portrait of Yifang Dang" height="100" loading="lazy"></a></td>
     </tr>
   </tbody>
 </table></div>
@@ -2170,14 +2175,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/ACTS/posts/NER/">Extracting clinical name entities</a>
+          <a href="/ACTS/posts/AI-powered/">AI-Powered Model for Accurate Prediction of MCI-to-AD Progression</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/ACTS/posts/meta-data-modeling/">Clinical trial meta data modeling</a>
+          <a href="/ACTS/posts/SNOMED-CT/">Quantifying the Impact of SNOMED CT Hierarchy Quality on Cohort Queries</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/ACTS/posts/angiotensin/">Association Between Angiotensin II Receptor Blockers and Alzheimer’s Disease Risk in Hypertensive Patients</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/ACTS/posts/all-you-need/">Generative Large Language Models Are All-purpose Text Analytics Engines: Text-to-text Learning Is All You Need</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/ACTS/posts/tuning-prompt-tuning/">Model Tuning or Prompt Tuning? A Study of Large Language Models for Clinical Concept and Relation Extraction</a>
         </li>
       
     </ul>
@@ -2222,6 +2248,176 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2231,7 +2427,159 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2254,7 +2602,60 @@
     
     
     
-      
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2262,6 +2663,481 @@
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
     
   
     
@@ -2283,110 +3159,6 @@
     
     
     
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2418,25 +3190,34 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cdm/">CDM</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/alzheimer-s-disease/">Alzheimer’s disease</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/data-model/">data model</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/prompt-tuning/">prompt tuning</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/data-standardization/">data standardization</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/electronic-health-records-ehrs/">electronic health records (EHRs)</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/metadata/">metadata</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/electronic-health-records/">electronic health records</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ner/">NER</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/deep-learning/">deep learning</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ohdsi/">OHDSI</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/social-determinants-of-health-sdoh/">social determinants of health (SDoH)</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/phenotype/">phenotype</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/transfer-learning/">transfer learning</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/angiotensin-ii-receptor-blockers-arbs/">angiotensin II receptor blockers (ARBs)</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cancer/">cancer</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cardiovascular-events/">cardiovascular events</a>
       
     </div>
   </section>
@@ -2463,7 +3244,7 @@
   "
 >
   <p>©
-    <time>2024</time>
+    <time>2026</time>
 
     
       <a href="https://github.com/Tao-AI-group">Jingna Feng</a>.
@@ -2481,7 +3262,7 @@
   <p>Using the <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="v7.0.1"
+        title="v7.5.0"
         href="https://github.com/cotes2020/jekyll-theme-chirpy"
         target="_blank"
         rel="noopener"
@@ -2534,6 +3315,176 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2543,7 +3494,159 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2566,7 +3669,60 @@
     
     
     
-      
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2574,6 +3730,481 @@
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
     
   
     
@@ -2595,110 +4226,6 @@
     
     
     
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2730,25 +4257,34 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cdm/">CDM</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/alzheimer-s-disease/">Alzheimer’s disease</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/data-model/">data model</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/prompt-tuning/">prompt tuning</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/data-standardization/">data standardization</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/electronic-health-records-ehrs/">electronic health records (EHRs)</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/metadata/">metadata</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/electronic-health-records/">electronic health records</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ner/">NER</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/deep-learning/">deep learning</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/ohdsi/">OHDSI</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/social-determinants-of-health-sdoh/">social determinants of health (SDoH)</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/phenotype/">phenotype</a>
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/transfer-learning/">transfer learning</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/angiotensin-ii-receptor-blockers-arbs/">angiotensin II receptor blockers (ARBs)</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cancer/">cancer</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/ACTS/tags/cardiovascular-events/">cardiovascular events</a>
       
     </div>
   </section>
@@ -2809,8 +4345,6 @@
 <!-- layout specified -->
 
 
-
-
   
 
   
@@ -2862,22 +4396,19 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
 
 
 
 
 
 
-<script src="/ACTS/assets/js/dist/page.min.js"></script>
+
+<script defer src="/ACTS/assets/js/dist/page.min.js"></script>
 
 
 
 <!-- Pageviews -->
-
-
-
-
 
 
 
@@ -2892,29 +4423,33 @@
 
 
 
-<script>SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('search-results'),
-    json: '/ACTS/assets/js/data/search.json',
-    searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{snippet}</p>  </article>',
-    noResultsText: '<p class="mt-5">Oops! No results found.</p>',
-    templateMiddleware: function(prop, value, template) {
-      if (prop === 'categories') {
-        if (value === '') {
-          return `${value}`;
-        } else {
-          return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+<script>
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('search-results'),
+      json: '/ACTS/assets/js/data/search.json',
+      searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{content}</p>  </article>',
+      noResultsText: '<p class="mt-5">Oops! No results found.</p>',
+      templateMiddleware: function(prop, value, template) {
+        if (prop === 'categories') {
+          if (value === '') {
+            return `${value}`;
+          } else {
+            return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+          }
         }
-      }
 
-      if (prop === 'tags') {
-        if (value === '') {
-          return `${value}`;
-        } else {
-          return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+        if (prop === 'tags') {
+          if (value === '') {
+            return `${value}`;
+          } else {
+            return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+          }
         }
       }
-    }
+    });
   });
 </script>
 

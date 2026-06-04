@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generative Large Language Models Are All-purpose Text Analytics Engines: Text-to-text Learning Is All You Need
+title: "Generative Large Language Models Are All-purpose Text Analytics Engines: Text-to-text Learning Is All You Need"
 category:
 - machine learning
 - natural language processing

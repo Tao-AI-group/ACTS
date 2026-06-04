@@ -6,5 +6,10 @@ gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
 
 group :test do
   gem "html-proofer", "~> 5.0"
-  gem 'sass-embedded', '~> 1.100.0'
 end
+
+# Use dart-sass-embedded which has prebuilt binaries
+#gem 'sass-embedded', '~> 1.100', platforms: [:ruby]
+
+# Or alternatively, use a more stable version
+gem 'sass-embedded', '~> 1.69.0'
